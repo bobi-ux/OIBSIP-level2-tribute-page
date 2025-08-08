@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #e0f7fa;
+  color: #333;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.hero {
+  text-align: center;
+  background-color: #006064;
+  color: white;
+  padding: 3rem 1rem;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  color: #b2ebf2;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.image-section img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.quote-box {
+  background-color: #b2dfdb;
+  padding: 2rem;
+  border-left: 8px solid #00796b;
+  margin: 2rem 0;
+  font-style: italic;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.bio {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.bio h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #004d40;
+}
+
+.bio p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #004d40;
+  color: #fff;
+  border-radius: 8px;
+}
+.achievements, .presidency, .legacy {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.achievements h2,
+.presidency h2,
+.legacy h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #004d40;
+}
+
+.achievements ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.learn-more {
+  background-color: #e3f2fd;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.learn-more h2 {
+  font-size: 2rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+.learn-more p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.wiki-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0d47a1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.wiki-link:hover {
+  background-color: #1565c0;
+}
+
